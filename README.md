@@ -20,3 +20,32 @@ The SQL queries in this project cover:
 - Sales distribution by Country
 - Top 5 Best-Selling Product
 - Top 5 Worst-Performing Products
+
+# 🛠️ Technologies Used
+
+- SQL (Structured Query Language)
+- Data Warehouse Schema with:
+    - fact_sale table
+    - dim_customers table
+    - dim_products table
+
+# 📁 Dataset Structure
+
+## Fact Table
+
+- fact_sale: sales transaction containing products, customers and sales metrics.
+
+## Dimension Table
+
+- dim_customers: customers details such as country, gender and identity
+- dim_products: products details including category, cost and identifiers
+
+# 📈 Insight Example
+
+## From this EDA, you can identify
+
+- Top-performing product category
+- Customer distribution by demographics and geography
+- Revenue contribution by customer
+- Product performance ranking
+
